@@ -3,7 +3,7 @@ from time import sleep
 from playwright.sync_api import Page, Route, Dialog
 import re
 '''
-    pytest --headed -v -s test_third_1_alert.py::test_alert
+    Перехват и работа с Allert
 '''
 def test_alert(page: Page):
     page.goto("https://demoblaze.com")
@@ -19,5 +19,8 @@ def test_alert(page: Page):
     page.locator('#cartur').click()
     sleep(5)
 
+'''
+pytest --headed -v -s test_third_1_alert.py::test_alert
+'''
 
 

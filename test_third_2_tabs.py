@@ -20,4 +20,6 @@ def test_tabs(page: Page, context: BrowserContext):
 
     sleep(5)
 
-'''pytest --headed -v -s test_third_2_tabs.py::test_tabs'''
+'''
+pytest --headed -v -s test_third_2_tabs.py::test_tabs
+'''

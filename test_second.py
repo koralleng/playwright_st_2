@@ -48,4 +48,7 @@ def test_response(page: Page):
     page.get_by_role('button', name='Войти').click()
     page.get_by_role('link', name='Мой профиль').click()
     sleep(5)
-    # pytest --headed -v -s test_second.py::test_response
+
+'''
+pytest --headed -v -s test_second.py::test_response
+'''
