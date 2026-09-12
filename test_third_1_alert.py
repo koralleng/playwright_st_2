@@ -19,8 +19,6 @@ def test_alert(page: Page):
     page.locator('#cartur').click()
     sleep(5)
 
-'''
-pytest --headed -v -s test_third_1_alert.py::test_alert
-'''
+ 
 
 
